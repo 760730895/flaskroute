@@ -1,0 +1,8 @@
+<!doctype html>
+<title>SQLAlchemy Sample</title>
+<h1>Users:</h1>
+<ul>
+{% for user in users %}
+    <li>{{ user.name }}, {{ user.age }}</li>
+{% endfor %}
+</ul>

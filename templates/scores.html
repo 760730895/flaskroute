@@ -1,0 +1,12 @@
+<!doctype html>
+<title>SQLAlchemy Sample</title>
+<h1>Scores of {{ name }}: </h1>
+<ul>
+{% for score in scores %}
+    <li
+    {%- if not score.is_pass %}
+        style="color:red;"
+    {%- endif -%}
+    >{{ score.course }}, {{ score.score }}</li>
+{% endfor %}
+</ul>

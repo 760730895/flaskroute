@@ -1,0 +1,78 @@
+2022-04-18 17:53:05,193 ERROR: Exception on / [GET]
+Traceback (most recent call last):
+  File "D:\data\flaskroute\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\data\flaskroute\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\data\flaskroute\lib\site-packages\flask\app.py", line 1521, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\data\flaskroute\lib\site-packages\flask\app.py", line 1861, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "E:\python_work\python_workspaces\flaskroute\app.py", line 29, in before_request
+    g.db = sqlite3.connect(app.config['DATABAS'])
+KeyError: 'DATABAS'
+2022-04-18 17:53:38,265 ERROR: Exception on / [GET]
+Traceback (most recent call last):
+  File "D:\data\flaskroute\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\data\flaskroute\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\data\flaskroute\lib\site-packages\flask\app.py", line 1521, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\data\flaskroute\lib\site-packages\flask\app.py", line 1861, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "E:\python_work\python_workspaces\flaskroute\app.py", line 29, in before_request
+    g.db = sqlite3.connect(app.config['DATABAS'])
+KeyError: 'DATABAS'
+2022-04-18 17:53:40,864 ERROR: Exception on / [GET]
+Traceback (most recent call last):
+  File "D:\data\flaskroute\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\data\flaskroute\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\data\flaskroute\lib\site-packages\flask\app.py", line 1521, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\data\flaskroute\lib\site-packages\flask\app.py", line 1861, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "E:\python_work\python_workspaces\flaskroute\app.py", line 29, in before_request
+    g.db = sqlite3.connect(app.config['DATABAS'])
+KeyError: 'DATABAS'
+2022-04-18 17:53:44,892 ERROR: Exception on /index [GET]
+Traceback (most recent call last):
+  File "D:\data\flaskroute\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\data\flaskroute\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\data\flaskroute\lib\site-packages\flask\app.py", line 1521, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\data\flaskroute\lib\site-packages\flask\app.py", line 1861, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "E:\python_work\python_workspaces\flaskroute\app.py", line 29, in before_request
+    g.db = sqlite3.connect(app.config['DATABAS'])
+KeyError: 'DATABAS'
+2022-04-18 17:59:04,731 ERROR: Exception on / [GET]
+Traceback (most recent call last):
+  File "D:\data\flaskroute\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\data\flaskroute\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\data\flaskroute\lib\site-packages\flask\app.py", line 1521, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\data\flaskroute\lib\site-packages\flask\app.py", line 1861, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "E:\python_work\python_workspaces\flaskroute\app_bk.py", line 29, in before_request
+    g.db = sqlite3.connect(app.config['DATABAS'])
+KeyError: 'DATABAS'
+2022-04-18 17:59:09,998 ERROR: Exception on / [GET]
+Traceback (most recent call last):
+  File "D:\data\flaskroute\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\data\flaskroute\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\data\flaskroute\lib\site-packages\flask\app.py", line 1521, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\data\flaskroute\lib\site-packages\flask\app.py", line 1861, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "E:\python_work\python_workspaces\flaskroute\app_bk.py", line 29, in before_request
+    g.db = sqlite3.connect(app.config['DATABAS'])
+KeyError: 'DATABAS'
